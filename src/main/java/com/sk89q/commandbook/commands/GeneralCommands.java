@@ -128,7 +128,7 @@ public class GeneralCommands {
         if (!(sender instanceof Player) && plugin.crappyWrapperCompat) {
             StringBuilder out = new StringBuilder();
             
-            out.append("Connected players: ");
+            out.append("Gracze Online: ");
             
             // To keep track of commas
             boolean first = true;
